@@ -1,8 +1,8 @@
-import Nav from './Nav.js';
+import Nav from './Nav';
 
-export default function Move({ currentPage, setCurrentPage }) {
+export default function Page({ currentPage, setCurrentPage }) {
   return (
-    <div id='move'>
+    <div id={currentPage.toLowerCase()}>
       <header>
         <h2>{currentPage}</h2>
         <Nav
@@ -10,6 +10,7 @@ export default function Move({ currentPage, setCurrentPage }) {
           setCurrentPage={setCurrentPage}
         />
       </header>
+      <div id='page-container'></div>
     </div>
   );
 }

@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 15%;
+  color: white;
+  padding-top: 4rem;
+}
+
+h2 {
+  font-size: 6rem;
+  font-weight: 900;
+  letter-spacing: 15%;
+  font-style: italic;
+  line-height: 80%;
+}
+
+#play header {
+  background-color: #80917f;
+}
+
+#eat header {
+  background-color: #be9469;
+}
+
+#stay header {
+  background-color: #a27293;
+}
+
+#move header {
+  background-color: #728ba2;
+}
+
+#faq header {
+  background-color: #72a298;
+}

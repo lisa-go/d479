@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
 ul {
+  font-family: 'Geologica', sans-serif;
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-top: 1rem;
 }
 
 li {
@@ -10,6 +11,8 @@ li {
 }
 
 #home-nav {
+  margin-top: 1rem;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 
@@ -44,4 +47,21 @@ li {
 
 #home-nav #move-nav {
   background-color: #728ba2;
+}
+
+header ul {
+  letter-spacing: 15%;
+  font-weight: 100;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  font-style: italic;
+}
+
+header ul li {
+  padding: 0.3rem 1rem 0;
+  transition: 0.3s;
+}
+
+header ul li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }

@@ -1,11 +1,10 @@
 import './styles/App.css';
+import './styles/pages.css';
 import { useState } from 'react';
 import Home from './components/Home';
-import Eat from './components/Eat';
 import Faq from './components/Faq';
 import Move from './components/Move';
-import Play from './components/Play';
-import Stay from './components/Stay';
+import Page from './components/Page';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -19,8 +18,10 @@ export default function App() {
             setCurrentPage={setCurrentPage}
           />
         )}
-        {currentPage === 'EAT' && (
-          <Eat
+        {(currentPage === 'EAT' ||
+          currentPage === 'STAY' ||
+          currentPage === 'PLAY') && (
+          <Page
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
           />
@@ -38,20 +39,7 @@ export default function App() {
             setCurrentPage={setCurrentPage}
           />
         )}
-        {currentPage === 'PLAY' && (
-          <Play
-            currentPage={currentPage}
-            setCurrentPage={setCurrentPage}
-          />
-        )}
-        {currentPage === 'STAY' && (
-          <Stay
-            currentPage={currentPage}
-            setCurrentPage={setCurrentPage}
-          />
-        )}
       </main>
-
       <Footer
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
