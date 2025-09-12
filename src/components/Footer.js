@@ -1,3 +1,10 @@
+import Credits from './Credits';
+
 export default function Footer({ currentPage, setCurrentPage }) {
-  return <div>Footer</div>;
+  return (
+    <footer>
+      footy
+      {currentPage == 'HOME' && <Credits />}
+    </footer>
+  );
 }

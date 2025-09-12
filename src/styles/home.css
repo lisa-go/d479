@@ -1,0 +1,31 @@
+#home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 8rem;
+}
+
+#home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4.5rem;
+  letter-spacing: 10%;
+  font-style: italic;
+  font-weight: 500;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
