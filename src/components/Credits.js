@@ -1,4 +1,4 @@
-import credits from '../assets/credits.json';
+import credits from '../jsons/credits.json';
 import '../styles/credits.css';
 
 export default function Credits() {

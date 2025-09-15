@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Beaches of Taniti",
+    "address": "Various locations around Yellow Leaf Bay",
+    "budget": "$",
+    "short_description": "Relax on native white sandy beaches or enjoy water activities.",
+    "image": "amd-creation-_WbSlFDUiIY-unsplash.jpg",
+    "imagealt": "brown beach umbrellas on beach during daytime",
+    "hours": "Open daily",
+    "category": "Sightseeing"
+  },
+  {
+    "name": "Taniti Rainforest",
+    "address": "Various rainforest trails near Taniti City",
+    "budget": "$",
+    "short_description": "Explore hiking trails and enjoy zip-lining adventures.",
+    "image": "jack-charles-ES0PhzQfj-Q-unsplash.jpg",
+    "imagealt": "a set of stairs leading up to a forest",
+    "hours": "8:00 AM - 6:00 PM",
+    "category": "Sightseeing"
+  },
+  {
+    "name": "Taniti Volcano",
+    "address": "Taniti Island",
+    "budget": "$$",
+    "short_description": "Visit the active volcano and observe its natural beauty.",
+    "image": "david-wollschlegel-dRi6xP2ZPBk-unsplash.jpg",
+    "imagealt": "brown and green mountain surrounded by calm water at daytime",
+    "hours": "Sunrise to sunset",
+    "category": "Sightseeing"
+  },
+  {
+    "name": "Taniti History Museum",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$",
+    "short_description": "Learn about the local history and culture of Taniti.",
+    "image": "akhmad-jazuli-mCxdRJm-w2U-unsplash.jpg",
+    "imagealt": "The classic tourist building of Fort Pendem Van Den Bosch, Ngawi Regency, East Java",
+    "hours": "9:00 AM - 5:00 PM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Chartered Fishing Tours",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$$",
+    "short_description": "Go on guided fishing tours in Yellow Leaf Bay.",
+    "image": "einar-h-reynis-ukZ4vRq780g-unsplash.jpg",
+    "imagealt": "Small fishing boats in harbour",
+    "hours": "7:00 AM - 4:00 PM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Snorkeling",
+    "address": "Yellow Leaf Bay",
+    "budget": "$$",
+    "short_description": "Enjoy snorkeling in clear waters near the beaches.",
+    "image": "karl-callwood-bi3qyXxkTdg-unsplash.jpg",
+    "imagealt": "SCUBA divers investigate a coral reef",
+    "hours": "8:00 AM - 6:00 PM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Zip-lining",
+    "address": "Taniti Rainforest, Merriton Landing",
+    "budget": "$$$",
+    "short_description": "Experience thrilling zip-line rides through the rainforest canopy.",
+    "image": "ty-downs-puLSyUOqku8-unsplash.jpg",
+    "imagealt": "Teen Ziplining in Mexico",
+    "hours": "9:00 AM - 5:00 PM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Taniti Pubs & Microbrewery",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$",
+    "short_description": "Enjoy drinks at local pubs and a microbrewery.",
+    "image": "norbert-braun-KHK607p3TVA-unsplash.jpg",
+    "imagealt": "a bar with bottles of alcohol on the beach",
+    "hours": "5:00 PM - 2:00 AM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Dance Club",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$",
+    "short_description": "Dance and enjoy nightlife at the new club.",
+    "image": "artem-bryzgalov-4EQVWx5tvp0-unsplash.jpg",
+    "imagealt": "people standing on stage with blue lights",
+    "hours": "8:00 PM - 3:00 AM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Movie Theater",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$",
+    "short_description": "Catch the latest films at a local cinema.",
+    "image": "krists-luhaers-AtPWnYNDJnM-unsplash.jpg",
+    "imagealt": "People watching the new Game of thrones episode in cinema",
+    "hours": "12:00 PM - 11:00 PM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Helicopter Rides",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$$",
+    "short_description": "See the island from above with scenic helicopter tours.",
+    "image": "nigel-cohen-sBXSn8flJ2Q-unsplash.jpg",
+    "imagealt": "black helicopter flying over green grass field during daytime",
+    "hours": "8:00 AM - 6:00 PM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Arcade",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$",
+    "short_description": "Play arcade games and enjoy family-friendly entertainment.",
+    "image": "mitchell-orr-bYYtehpPaeE-unsplash.jpg",
+    "imagealt": "a row of pinball machines sitting next to each other",
+    "hours": "10:00 AM - 10:00 PM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Art Galleries",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$",
+    "short_description": "View and purchase artwork from local artists.",
+    "image": "raychan-kJQ6cDyodAM-unsplash.jpg",
+    "imagealt": "five assorted paintings on easels",
+    "hours": "10:00 AM - 6:00 PM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Bowling",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$",
+    "short_description": "Enjoy bowling with friends and family.",
+    "image": "yuta-koike-hbrX9b0p06o-unsplash.jpg",
+    "imagealt": "a bowling alley filled with bowling balls and tvs",
+    "hours": "12:00 PM - 12:00 AM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Nine-Hole Golf Course",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$$",
+    "short_description": "Play golf at the soon-to-be-operational nine-hole course.",
+    "image": "chris-arjoon-ZcCFoYRRuwY-unsplash.jpg",
+    "imagealt": "Man hits golf ball with golf club",
+    "hours": "8:00 AM - 6:00 PM",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Boat Tours",
+    "address": "Taniti City / Yellow Leaf Bay",
+    "budget": "$$$",
+    "short_description": "Take guided boat tours around the island.",
+    "image": "ricardo-resende-rARIt5K819E-unsplash.jpg",
+    "imagealt": "a group of people riding on top of boats in the water",
+    "hours": "9:00 AM - 5:00 PM",
+    "category": "Sightseeing"
+  },
+  {
+    "name": "Bus Tours",
+    "address": "Taniti City",
+    "budget": "$$",
+    "short_description": "See the island sights on a guided bus tour.",
+    "image": "abdullah-ammar-bqOTOrFyVzY-unsplash.jpg",
+    "imagealt": "a colorful bus parked on the side of the road",
+    "hours": "9:00 AM - 5:00 PM",
+    "category": "Sightseeing"
+  }
+]
