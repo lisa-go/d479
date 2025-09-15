@@ -15,7 +15,8 @@ h2 {
   line-height: 80%;
 }
 
-#play header {
+#play header,
+.play-filters {
   background-color: #80917f;
 }
 
@@ -44,7 +45,74 @@ h2 {
 }
 
 .filters {
-  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  gap: 1rem;
+  height: fit-content;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#filter-options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#budget-container {
+  margin-bottom: 0.8rem;
+}
+
+.filters h5 {
+  text-align: center;
+}
+
+.filters h6 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.option p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.filters input[type='text'] {
+  padding: 3px 6px;
+  border-radius: 3px;
+  border: none;
+  font-size: 0.75rem;
+}
+
+.filters input[type='checkbox'] {
+  height: 1rem;
+  width: 1rem;
+}
+
+.filters button {
+  width: 60%;
+  padding: 3px 1.5rem;
+  align-self: center;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: 0.3s;
 }
 
 .card-container {
