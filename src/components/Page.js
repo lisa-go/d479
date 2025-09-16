@@ -1,14 +1,16 @@
 import Nav from './Nav';
 import activities from '../jsons/activities.json';
 import Card from './Card';
+import { useState } from 'react';
+import Filter from './Filter';
 
 export default function Page({ currentPage, setCurrentPage }) {
   let data;
-  if (currentPage == 'PLAY') {
+  if (currentPage === 'PLAY') {
     data = activities;
-  } else if (currentPage == 'EAT') {
+  } else if (currentPage === 'EAT') {
     data = activities;
-  } else if (currentPage == 'STAY') {
+  } else if (currentPage === 'STAY') {
     data = activities;
   }
 
@@ -19,6 +21,9 @@ export default function Page({ currentPage, setCurrentPage }) {
     });
     category = Array.from(new Set(tempArray));
   }
+
+  //pagination 6 cards at once
+  const [pagination, setPagination] = useState(0);
 
   return (
     <div id={currentPage.toLowerCase()}>
@@ -31,69 +36,26 @@ export default function Page({ currentPage, setCurrentPage }) {
       </header>
       <div id='page-container'>
         <div className='card-container'>
-          {data.map((d, i) => (
+          {data.slice(pagination * 6, pagination * 6 + 6).map((d, i) => (
             <Card
               d={d}
               key={`${currentPage[0].toLowerCase()}-${i}`}
               currentPage={currentPage}
             />
           ))}
-        </div>
-        <div className={`filters ${currentPage.toLowerCase()}-filters`}>
-          <input
-            type='text'
-            name='search'
-            id='search'
-            placeholder='Search'
-          />
-          <div id='filter-options-container'>
-            <h5>Filter options</h5>
-            <div id='budget-container'>
-              <h6>Budget</h6>
-              <div className='option'>
-                <input
-                  type='checkbox'
-                  name='$'
-                  id='$'
-                />
-                <p>$</p>
-              </div>
-              <div className='option'>
-                <input
-                  type='checkbox'
-                  name='$$'
-                  id='$$'
-                />
-                <p>$$</p>
-              </div>
-              <div className='option'>
-                <input
-                  type='checkbox'
-                  name='$$$'
-                  id='$$$'
-                />
-                <p>$$$</p>
-              </div>
-            </div>
 
-            <div id='category-container'>
-              <h6>Category</h6>
-              {category.map((c) => (
-                <div
-                  className='option'
-                  key={c}>
-                  <input
-                    type='checkbox'
-                    name={c}
-                    id={c}
-                  />
-                  <p>{c}</p>
-                </div>
-              ))}
-            </div>
+          <div id='pagination-container'>
+            <button onClick={() => setPagination(pagination - 1)}>‹</button>
+            <p>Page {pagination + 1}</p>
+            <button onClick={() => setPagination(pagination + 1)}>›</button>
           </div>
-          <button>Filter</button>
         </div>
+
+        <Filter
+          currentPage={currentPage}
+          data={data}
+          category={category}
+        />
       </div>
     </div>
   );
