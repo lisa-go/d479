@@ -17,11 +17,11 @@ h2 {
 
 #play header,
 .play-filters,
-#play #pagination-container button:hover {
+#play #pagination-container button:not(:disabled):hover {
   background-color: #80917f;
 }
 
-#play #pagination-container button {
+#play #pagination-container button:not(:disabled) {
   background-color: hsl(117, 11%, 88%);
 }
 
@@ -103,22 +103,42 @@ h2 {
   width: 1rem;
 }
 
-.filters button {
-  width: 60%;
-  padding: 3px 1.5rem;
+#filter-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#filter-button-container button {
+  font-size: 0.8rem;
+  cursor: pointer;
   align-self: center;
   border: none;
+  transition: 0.3s;
+}
+
+#filter-button-container button:first-of-type {
+  width: 60%;
+  padding: 3px 0;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 3px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  font-size: 0.8rem;
-  cursor: pointer;
 }
 
-.filters button:hover {
+#filter-button-container button:first-of-type:hover {
   font-weight: 700;
   letter-spacing: 2px;
-  transition: 0.3s;
+}
+
+#filter-button-container button:last-of-type {
+  width: fit-content;
+  background: none;
+  text-decoration: underline;
+}
+
+#filter-button-container button:last-of-type:hover {
+  color: white;
 }
 
 .card-container {
@@ -141,13 +161,18 @@ h2 {
   font-size: 1.5rem;
   padding: 0 0.8rem;
   border: none;
-  background: none;
   font-weight: 700;
-  transition: 0.3s;
-  cursor: pointer;
   border-radius: 2px;
 }
 
-#pagination-container button:hover {
+#pagination-container button:not(:disabled):hover {
   color: white !important;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#pagination-container button:disabled {
+  transition: none;
+  background-color: rgb(244, 244, 244);
+  cursor: default;
 }
