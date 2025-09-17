@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Taniti Hostel",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$",
+    "short_description": "Inexpensive hostel with shared dorms, perfect for backpackers.",
+    "image": "nicate-lee-kT-ZyaiwBe0-unsplash.jpg",
+    "imagealt": "brown wooden bunk beds",
+    "hours": "Check-in: 2:00 PM - 10:00 PM",
+    "category": "Hostel"
+  },
+  {
+    "name": "Seaside Inn",
+    "address": "Boardwalk Ave, Taniti City",
+    "budget": "$$",
+    "short_description": "Small, family-owned hotel near the beach with cozy rooms.",
+    "image": "marek-lumi-0at_AKneZxY-unsplash.jpg",
+    "imagealt": "a street corner with a yellow building and a red roof",
+    "hours": "Check-in: 3:00 PM - 10:00 PM",
+    "category": "Hotel"
+  },
+  {
+    "name": "Harbor View Hotel",
+    "address": "Harbor Street, Taniti City",
+    "budget": "$$",
+    "short_description": "Family-run hotel with modern amenities and waterfront views.",
+    "image": "francesca-saraco-_dS27XGgRyQ-unsplash.jpg",
+    "imagealt": "coconut palm trees in hotel lobby",
+    "hours": "Check-in: 2:00 PM - 11:00 PM",
+    "category": "Hotel"
+  },
+  {
+    "name": "Taniti B&B",
+    "address": "Main Street, Taniti City",
+    "budget": "$$",
+    "short_description": "Charming bed and breakfast offering breakfast and personalized service.",
+    "image": "loris-boulinguez-S0VYuu8cw80-unsplash.jpg",
+    "imagealt": "a house with a pool in front of it",
+    "hours": "Check-in: 3:00 PM - 10:00 PM",
+    "category": "Bed & Breakfast"
+  },
+  {
+    "name": "Sunset Bed & Breakfast",
+    "address": "Beachfront Road, Taniti City",
+    "budget": "$$",
+    "short_description": "Cozy B&B with ocean views and locally inspired décor.",
+    "image": "zoshua-colah-xt793XXX_vE-unsplash.jpg",
+    "imagealt": "a white house with palm trees in front of it",
+    "hours": "Check-in: 3:00 PM - 10:00 PM",
+    "category": "Bed & Breakfast"
+  },
+  {
+    "name": "Four-Star Taniti Resort",
+    "address": "Boardwalk Ave, Taniti City",
+    "budget": "$$$",
+    "short_description": "Luxury resort with all-inclusive amenities, spa, and private beach.",
+    "image": "gabriel-ghnassia-A9h6OsAxTyQ-unsplash.jpg",
+    "imagealt": "Hotel resort in sunlight",
+    "hours": "Check-in: 3:00 PM - 10:00 PM",
+    "category": "Resort"
+  }
+]

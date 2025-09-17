@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Fisherman's Delight",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$",
+    "short_description": "Local fish and rice specialties in a cozy seaside setting.",
+    "image": "design-wala-Y8XmUXVadwM-unsplash.jpg",
+    "imagealt": "a plate of fried fish and rice",
+    "hours": "11:00 AM - 9:00 PM",
+    "category": "Seafood"
+  },
+  {
+    "name": "Island Catch",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$",
+    "short_description": "Freshly caught seafood served with traditional rice dishes.",
+    "image": "advocator-sy-pJ5MFDYHd6I-unsplash.jpg",
+    "imagealt": "Butter milk prawns",
+    "hours": "10:30 AM - 9:30 PM",
+    "category": "Seafood"
+  },
+  {
+    "name": "Taniti Fish House",
+    "address": "Harbor Street, Taniti City",
+    "budget": "$$",
+    "short_description": "Enjoy local seafood favorites in a casual atmosphere.",
+    "image": "amo-fif-19tsn3fDZnU-unsplash.jpg",
+    "imagealt": "a plate of food with fish and vegetables on it",
+    "hours": "11:00 AM - 10:00 PM",
+    "category": "Seafood"
+  },
+  {
+    "name": "Rice & Reef",
+    "address": "Beachfront Road, Taniti City",
+    "budget": "$$",
+    "short_description": "Traditional fish and rice dishes with waterfront views.",
+    "image": "keesha-s-kitchen-uXcpPWc9bus-unsplash.jpg",
+    "imagealt": "African Fish with Spinach Rice",
+    "hours": "12:00 PM - 10:00 PM",
+    "category": "Seafood"
+  },
+  {
+    "name": "Seaside Grill",
+    "address": "Boardwalk Ave, Taniti City",
+    "budget": "$$",
+    "short_description": "Local seafood and rice meals with casual dining.",
+    "image": "michelle-tsang-l0aeuaECCNA-unsplash.jpg",
+    "imagealt": "Man grilling lobsters",
+    "hours": "11:00 AM - 10:00 PM",
+    "category": "Seafood"
+  },
+  {
+    "name": "All-American Diner",
+    "address": "Downtown Taniti City",
+    "budget": "$$",
+    "short_description": "Classic American-style burgers, fries, and shakes.",
+    "image": "jonathan-borba-lZHCSclvZUA-unsplash.jpg",
+    "imagealt": "a hamburger and french fries are on a table",
+    "hours": "8:00 AM - 10:00 PM",
+    "category": "American"
+  },
+  {
+    "name": "Route 66 Grill",
+    "address": "Downtown Taniti City",
+    "budget": "$$",
+    "short_description": "American comfort food with a fun retro vibe.",
+    "image": "snappr-vN0UyWCeZJs-unsplash.jpg",
+    "imagealt": "a white plate topped with eggs bacon and toast",
+    "hours": "9:00 AM - 10:00 PM",
+    "category": "American"
+  },
+  {
+    "name": "Star & Stripe Eatery",
+    "address": "Main Street, Taniti City",
+    "budget": "$$",
+    "short_description": "Serving burgers, sandwiches, and hearty American meals.",
+    "image": "bilal-rana-rCl6ZyI0jXg-unsplash.jpg",
+    "imagealt": "Classic Sub Sandwich",
+    "hours": "8:00 AM - 11:00 PM",
+    "category": "American"
+  },
+  {
+    "name": "Pan-Asian Bistro",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$$",
+    "short_description": "Fusion of Asian flavors with fresh ingredients.",
+    "image": "kirill-tonkikh-NFQi_2HUNRI-unsplash.jpg",
+    "imagealt": "a bowl of noodle soup with chopsticks on the side",
+    "hours": "11:00 AM - 10:00 PM",
+    "category": "Pan-Asian"
+  },
+  {
+    "name": "Zen Garden",
+    "address": "Merriton Landing, Taniti City",
+    "budget": "$$$",
+    "short_description": "Elegant Pan-Asian cuisine with sushi and noodles.",
+    "image": "wren-chai-TogB78UKLG4-unsplash.jpg",
+    "imagealt": "sliced fruits on white ceramic plate",
+    "hours": "12:00 PM - 10:00 PM",
+    "category": "Pan-Asian"
+  },
+  {
+    "name": "Taniti Supermarket",
+    "address": "Harbor Street, Taniti City",
+    "budget": "$$",
+    "short_description": "Large supermarket offering groceries, fresh produce, and household items.",
+    "image": "kleomenis-spyroglou-SFo3vOgDpTo-unsplash.jpg",
+    "imagealt": "Full Supermarket in Utrecht, Netherlands",
+    "hours": "8:00 AM - 10:00 PM",
+    "category": "Supermarket"
+  },
+  {
+    "name": "Island Grocers",
+    "address": "Main Street, Taniti City",
+    "budget": "$$",
+    "short_description": "Supermarket with a variety of local and imported goods.",
+    "image": "fikri-rasyid-ezeC8-clZSs-unsplash.jpg",
+    "imagealt": "Food Aisle on Supermarket",
+    "hours": "7:00 AM - 9:00 PM",
+    "category": "Supermarket"
+  },
+  {
+    "name": "Sunset Grocery",
+    "address": "Boardwalk Ave, Taniti City",
+    "budget": "$",
+    "short_description": "Smaller grocery store with everyday essentials.",
+    "image": "franki-chamaki-ivfp_yxZuYQ-unsplash.jpg",
+    "imagealt": "Breakfast Aisle on Supermarket",
+    "hours": "8:00 AM - 8:00 PM",
+    "category": "Grocery Store"
+  },
+  {
+    "name": "Mini Market",
+    "address": "Harbor Street, Taniti City",
+    "budget": "$",
+    "short_description": "Local grocery store with fresh produce and snacks.",
+    "image": "luke-moss-eJ8OvuHSciY-unsplash.jpg",
+    "imagealt": "a mini market sells fruits drinks and other items",
+    "hours": "8:00 AM - 9:00 PM",
+    "category": "Grocery Store"
+  },
+  {
+    "name": "24/7 Convenience",
+    "address": "Downtown Taniti City",
+    "budget": "$",
+    "short_description": "Convenience store open 24 hours for all basic needs.",
+    "image": "zhu-hongzhi-pHdx3P6zVn0-unsplash.jpg",
+    "imagealt": "Convenience Store",
+    "hours": "Open 24 hours",
+    "category": "Convenience Store"
+  }
+]

@@ -1,27 +1,14 @@
 import Nav from './Nav';
 import activities from '../jsons/activities.json';
+import food from '../jsons/food.json';
+import lodging from '../jsons/lodging.json';
 import Card from './Card';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Filter from './Filter';
 
 export default function Page({ currentPage, setCurrentPage }) {
-  let data;
-  if (currentPage === 'PLAY') {
-    data = activities;
-  } else if (currentPage === 'EAT') {
-    data = activities;
-  } else if (currentPage === 'STAY') {
-    data = activities;
-  }
-
-  // find unique categories
-  let category;
-  if (data.length >= 1) {
-    const tempArray = data.map((d) => {
-      return d.category;
-    });
-    category = Array.from(new Set(tempArray));
-  }
+  const [data, setData] = useState([]);
+  const [allCategories, setAllCategories] = useState([]);
 
   const [search, setSearch] = useState('');
 
@@ -33,13 +20,31 @@ export default function Page({ currentPage, setCurrentPage }) {
 
   const [categories, setCategories] = useState([]);
 
-  //pagination 6 cards at once
   const [pagination, setPagination] = useState(0);
 
   const [filteredArray, setFilteredArray] = useState(data);
-  const handleFilter = () => {
-    let tempArray = data;
 
+  useEffect(() => {
+    if (currentPage === 'PLAY') {
+      setData(activities);
+    } else if (currentPage === 'EAT') {
+      setData(food);
+    } else if (currentPage === 'STAY') {
+      setData(lodging);
+    }
+  }, [currentPage]);
+
+  useEffect(() => {
+    const tempArray = data.map((d) => d.category);
+    setAllCategories(Array.from(new Set(tempArray)));
+    setFilteredArray(data); // reset filteredArray when data changes
+    setPagination(0);
+  }, [data]);
+
+  const handleFilter = () => {
+    let tempArray = data.slice();
+
+    // Filter budgets
     const activeBudgets = Object.keys(budgets).filter((key) => budgets[key]);
     if (activeBudgets.length > 0) {
       tempArray = tempArray.filter((item) =>
@@ -47,14 +52,18 @@ export default function Page({ currentPage, setCurrentPage }) {
       );
     }
 
-    if (categories.length > 0)
+    // Filter categories
+    if (categories.length > 0) {
       tempArray = tempArray.filter((item) =>
         categories.includes(item.category)
       );
+    }
 
+    // Filter search
     if (search.trim() !== '') {
+      const q = search.toLowerCase();
       tempArray = tempArray.filter((item) =>
-        item.name.toLowerCase().includes(search.toLowerCase())
+        item.name.toLowerCase().includes(q)
       );
     }
 
@@ -81,6 +90,9 @@ export default function Page({ currentPage, setCurrentPage }) {
       </header>
       <div id='page-container'>
         <div className='card-container'>
+          {filteredArray.length === 0 && (
+            <p>No results found. Please clear filters.</p>
+          )}
           {filteredArray
             .slice(pagination * 6, pagination * 6 + 6)
             .map((d, i) => (
@@ -108,7 +120,7 @@ export default function Page({ currentPage, setCurrentPage }) {
 
         <Filter
           currentPage={currentPage}
-          category={category}
+          allCategories={allCategories}
           budgets={budgets}
           setBudgets={setBudgets}
           categories={categories}

@@ -1,6 +1,6 @@
 export default function Filter({
   currentPage,
-  category,
+  allCategories,
   budgets,
   setBudgets,
   categories,
@@ -52,7 +52,7 @@ export default function Filter({
 
         <div id='category-container'>
           <h6>Category</h6>
-          {category.map((c) => (
+          {allCategories.map((c) => (
             <div
               className='option'
               key={c}>
