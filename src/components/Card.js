@@ -10,15 +10,17 @@ export default function Card({ d, currentPage }) {
   }
   return (
     <div className={`card ${currentPage.toLowerCase()}-card`}>
-      <img
-        src={imgSrc}
-        alt={d.imagealt}
-      />
-      <div id='card-head-container'>
+      <div
+        id='card-header-container'
+        style={{
+          backgroundImage: `url(${imgSrc})`,
+        }}>
         <h5>{d.name}</h5>
+      </div>
+      <div id='card-head-container'>
+        <div className='addr'>{d.address}</div>
         <div className='budget'>{d.budget}</div>
       </div>
-      <div className='addr'>{d.address}</div>
       <p className='desc'>{d.short_description}</p>
       <div className='hour-cat-container'>
         <div>
