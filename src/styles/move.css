@@ -1,0 +1,75 @@
+#move #page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#move #page-container > * {
+  width: 80%;
+}
+
+#gh-banner {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+#gh-banner h4,
+#ga-banner h4 {
+  font-size: 5rem;
+  font-weight: 100;
+  font-style: italic;
+  letter-spacing: -3px;
+  line-height: 80%;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#info-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#ga-banner {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  height: 80px;
+  background-color: hsl(209, 21%, 88%);
+}
+
+#ga-banner h4 {
+  font-size: 3.5rem;
+}
+
+.info ul {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+.info ul strong {
+  font-weight: 600;
+  text-decoration: double underline;
+}
+
+.info ul h6 {
+  display: inline;
+  font-size: 1rem;
+  color: #728ba2;
+}

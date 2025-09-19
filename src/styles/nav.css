@@ -12,7 +12,7 @@ li {
 
 #home-nav {
   margin-top: 1rem;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
 }
 
@@ -49,10 +49,14 @@ li {
   background-color: #728ba2;
 }
 
+#home-nav #faq-nav {
+  background-color: #9fb06a;
+}
+
 header ul {
   letter-spacing: 15%;
   font-weight: 100;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   font-style: italic;
 }

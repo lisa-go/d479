@@ -2,7 +2,7 @@ import { useState } from 'react';
 import '../styles/nav.css';
 
 export default function Nav({ currentPage, setCurrentPage }) {
-  const navList = ['PLAY', 'EAT', 'STAY', 'MOVE'];
+  const navList = ['PLAY', 'EAT', 'STAY', 'MOVE', 'FAQ'];
   const tempList = navList.filter((page) => page !== currentPage);
 
   // prevent double click on nav bar

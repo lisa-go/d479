@@ -94,7 +94,7 @@ export default function Page({ currentPage, setCurrentPage }) {
             <p>No results found. Please clear filters.</p>
           )}
           {filteredArray
-            .slice(pagination * 6, pagination * 6 + 6)
+            .slice(pagination * 8, pagination * 8 + 8)
             .map((d, i) => (
               <Card
                 d={d}
@@ -112,7 +112,7 @@ export default function Page({ currentPage, setCurrentPage }) {
             <p>Page {pagination + 1}</p>
             <button
               onClick={() => setPagination(pagination + 1)}
-              disabled={pagination >= Math.ceil(filteredArray.length / 6) - 1}>
+              disabled={pagination >= Math.ceil(filteredArray.length / 8) - 1}>
               ›
             </button>
           </div>
