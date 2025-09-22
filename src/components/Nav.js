@@ -12,7 +12,7 @@ export default function Nav({ currentPage, setCurrentPage }) {
     setDisabled(true);
     setCurrentPage(page);
 
-    setTimeout(() => setDisabled(false), 1500);
+    setTimeout(() => setDisabled(false), 1800);
   };
 
   return (

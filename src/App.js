@@ -1,4 +1,3 @@
-import './styles/App.css';
 import './styles/pages.css';
 import { useState } from 'react';
 import Home from './components/Home';
