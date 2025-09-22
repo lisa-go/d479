@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/d479/static/css/main.4b214ec3.css",
+    "main.css": "/d479/static/css/main.5db9c354.css",
     "main.js": "/d479/static/js/main.bd6b2ab6.js",
     "static/media/pete-garnett-unsplash.jpg": "/d479/static/media/pete-garnett-unsplash.24ca414b71b060a192a2.jpg",
     "static/media/jack-charles-ES0PhzQfj-Q-unsplash.jpg": "/d479/static/media/jack-charles-ES0PhzQfj-Q-unsplash.ade004fdc7db263712da.jpg",
@@ -44,11 +44,11 @@
     "static/media/rocker-sta-RSYBi_1fhfM-unsplash.jpg": "/d479/static/media/rocker-sta-RSYBi_1fhfM-unsplash.42d901d6ed94603110e1.jpg",
     "static/media/palm-tree.png": "/d479/static/media/palm-tree.b2b1fc406c7311e75a8e.png",
     "index.html": "/d479/index.html",
-    "main.4b214ec3.css.map": "/d479/static/css/main.4b214ec3.css.map",
+    "main.5db9c354.css.map": "/d479/static/css/main.5db9c354.css.map",
     "main.bd6b2ab6.js.map": "/d479/static/js/main.bd6b2ab6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b214ec3.css",
+    "static/css/main.5db9c354.css",
     "static/js/main.bd6b2ab6.js"
   ]
 }
