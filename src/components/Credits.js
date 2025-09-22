@@ -1,5 +1,4 @@
 import credits from '../jsons/credits.json';
-import '../styles/credits.css';
 
 export default function Credits() {
   return (
@@ -8,7 +7,7 @@ export default function Credits() {
       <ol>
         {credits.map((c, i) => (
           <li key={i}>
-            {c.author}. ({c.year}). <i>{c.title}</i>. {c.website}.
+            {c.author}. ({c.year}). <i>{c.title}</i>. {c.website}.{' '}
             <a
               href={c.url}
               target='_blank'

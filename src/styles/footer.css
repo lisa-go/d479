@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+footer {
+  display: flex;
+  margin: 1rem 18%;
+  padding: 3rem 0;
+  border-top: 1px solid #dcdcdc;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sitemap {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.85rem;
+}
+
+#sitemap li,
+h3 {
+  width: fit-content;
+  height: fit-content;
+  padding: 2px 6px;
+  border-radius: 1px;
+}
+
+#sitemap li:hover,
+.clickable:hover {
+  transition: 0.28s;
+  background-color: #ececec;
+}
+
+#s1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sm-sec {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#flogo {
+  border-left: 1px solid #dcdcdc;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+
+#flogo h3 {
+  font-size: 3rem;
+  font-family: 'Grape Nuts', cursive;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 75%;
+  position: relative;
+  left: -10px;
+  top: 6px;
+}
+
+#flogo img {
+  height: 75px;
+}
+
+#footer-credits {
+  border-top: 1px solid #dcdcdc;
+  margin: 0 2rem;
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+}
+
+#footer-credits h4 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+#footer-credits ol {
+  font-size: smaller;
+  list-style-position: inside;
+}
+
+#footer-credits a {
+  color: green;
+  transition: 0.28s;
+}
+
+#footer-credits a:hover {
+  background-color: hsl(120, 100%, 93%);
+}

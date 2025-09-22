@@ -11,12 +11,11 @@ export default function Nav({ currentPage, setCurrentPage }) {
     if (disabled) return;
     setDisabled(true);
     setCurrentPage(page);
-
-    setTimeout(() => setDisabled(false), 1800);
+    setTimeout(() => setDisabled(false), 1600);
   };
 
   return (
-    <ul id={currentPage == 'HOME' ? 'home-nav' : undefined}>
+    <ul id={currentPage === 'HOME' ? 'home-nav' : undefined}>
       {tempList.map((n, i) => (
         <li
           key={i}
